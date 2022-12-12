@@ -1,0 +1,14 @@
+<aside
+  class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 bg-gradient-dark"
+  id="sidenav-main"
+>
+  <app-toolbar></app-toolbar>
+</aside>
+<main class="main-content border-radius-lg">
+  <app-navbar></app-navbar>
+  <div class="container-fluid py-4">
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </div>
+</main>
+<app-settings></app-settings>

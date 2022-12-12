@@ -1,0 +1,331 @@
+{
+  "applicant": [
+    {
+      "firstName": "Emre",
+      "lastName": "Güven",
+      "email": "emre@hotmail.com",
+      "password": "12345",
+      "nationalIdentity": "39834578547",
+      "dateOfBirth": "1998-10-10",
+      "about": "Sivas Üniversitesi Bilgisayar Mühendisliği",
+      "id": 1,
+      "role": "ROLE_APPLICANT",
+      "state": 2
+    },
+    {
+      "firstName": "İlknur",
+      "lastName": "Yıldırım",
+      "email": "ilknur@gmail.com",
+      "password": "478521",
+      "nationalIdentity": "1456327852",
+      "dateOfBirth": "1996-01-21",
+      "about": "Selçuk Üniversitesi Bilgisayar Mühendisliği",
+      "id": 2,
+      "role": "ROLE_APPLICANT",
+      "state": 2
+    },
+    {
+      "firstName": "Sevda",
+      "lastName": "Şimşek",
+      "email": "sevda@gmail.com",
+      "password": "412369",
+      "nationalIdentity": "1245789632",
+      "dateOfBirth": "1998-12-05",
+      "about": "Gazi Üniversitesi Bilgisayar Mühendisliği",
+      "id": 3,
+      "role": "ROLE_APPLICANT",
+      "state": 2
+    },
+    {
+      "firstName": "Burak",
+      "lastName": "Ergin",
+      "email": "burak@gmail.com",
+      "password": "412369",
+      "nationalIdentity": "1063897552",
+      "dateOfBirth": "1990-02-02",
+      "about": "Hitit Üniversitesi Bilgisayar Programcılığı",
+      "id": 4,
+      "role": "ROLE_APPLICANT",
+      "state": 2
+    },
+    {
+      "firstName": "Haluk",
+      "lastName": "Gül",
+      "email": "haluk@gmail.com",
+      "password": "456321",
+      "nationalIdentity": "1075951535",
+      "dateOfBirth": "1990-05-15",
+      "about": "Erzurum Üniversitesi YBS",
+      "id": 6,
+      "role": "ROLE_APPLICANT",
+      "state": 2
+    },
+    {
+      "firstName": "Mert ",
+      "lastName": "Subaşı",
+      "email": "mert@gmail.com",
+      "password": "742596",
+      "nationalIdentity": "2054865645",
+      "dateOfBirth": "1998-08-10",
+      "about": "Kırıkkale Üniversitesi İşletme",
+      "id": 5,
+      "role": "ROLE_APPLICANT",
+      "state": 2
+    }
+  ],
+  "employee": [
+    {
+      "firstName": "Enes",
+      "lastName": "KÖKSAL",
+      "email": "enesbinmalikköksal@gmail.com",
+      "password": "55444445",
+      "nationalIdentity": "39832111547",
+      "dateOfBirth": "1985-08-10",
+      "position": "Çalışma ve Sosyal Güvenlik Eğitim Uzmanı",
+      "id": 1,
+      "role": "ROLE_EMPLOYEE",
+      "image": "../assets/img/images/enes.jpeg"
+    },
+    {
+      "firstName": "Esra",
+      "lastName": "TAŞÇI",
+      "email": "esrapekdemir@gmail.com",
+      "password": "25524565",
+      "nationalIdentity": "24568534672",
+      "dateOfBirth": "1977-12-12",
+      "position": "Çalışma ve Sosyal Güvenlik Eğitim Uzmanı",
+      "id": 3,
+      "role": "ROLE_EMPLOYEE",
+      "image": "../assets/img/images/no.svg"
+    },
+    {
+      "firstName": "Serhat",
+      "lastName": "TAŞÇI",
+      "email": "serhattascı@gmail.com",
+      "password": "852147",
+      "nationalIdentity": "7596127596",
+      "dateOfBirth": "1980-07-12",
+      "position": "Çalışma ve Sosyal Güvenlik Eğitim Uzmanı",
+      "id": 4,
+      "role": "ROLE_EMPLOYEE",
+      "image": "../assets/img/images/serhat.jpeg"
+    },
+    {
+      "firstName": "İsmail",
+      "lastName": "Karakaya",
+      "email": "ismailkarakaya@gmail.com",
+      "password": "75963145",
+      "nationalIdentity": "1265743698",
+      "dateOfBirth": "1995-03-03",
+      "position": "Çalışma ve Sosyal Güvenlik Eğitim Uzmanı",
+      "id": 5,
+      "role": "ROLE_EMPLOYEE",
+      "image": "../assets/img/images/ismail.jpeg"
+    }
+  ],
+  "instructor": [
+    {
+      "firstName": "Engin",
+      "lastName": "Demiroğ",
+      "email": "engin@hotmail.com",
+      "password": "434523",
+      "nationalIdentity": "1525963214",
+      "dateOfBirth": "1993-11-10",
+      "companyName": "kodlama.io",
+      "id": 1,
+      "role": "ROLE_INSTRUCTOR"
+    },
+    {
+      "firstName": "Arda",
+      "lastName": "Karaca",
+      "email": "arda@gmail.com",
+      "password": "45368",
+      "nationalIdentity": "1545963214",
+      "dateOfBirth": "1993-12-25",
+      "companyName": "Udemy",
+      "id": 2,
+      "role": "ROLE_INSTRUCTOR"
+    },
+    {
+      "firstName": "Seher",
+      "lastName": "Karaman",
+      "email": "karaman@gmail.com",
+      "password": "147852",
+      "nationalIdentity": "3245963214",
+      "dateOfBirth": "1993-09-14",
+      "companyName": "Gelecek Yazılım",
+      "id": 3,
+      "role": "ROLE_INSTRUCTOR"
+    },
+    {
+      "firstName": "Merve",
+      "lastName": "Kara",
+      "email": "merve@gmail.com",
+      "password": "746312",
+      "nationalIdentity": "36925814775",
+      "dateOfBirth": "1990-01-01",
+      "companyName": "Baykar",
+      "id": 4,
+      "role": "ROLE_INSTRUCTOR"
+    },
+    {
+      "firstName": "Selim",
+      "lastName": "Güngör",
+      "email": "selim@gmail.com",
+      "password": "412369",
+      "nationalIdentity": "1056821475",
+      "dateOfBirth": "1995-05-06",
+      "companyName": "Aselsan",
+      "id": 5,
+      "role": "ROLE_INSTRUCTOR"
+    },
+    {
+      "firstName": "Kübra",
+      "lastName": "Kul",
+      "email": "Kubra@gmail.com",
+      "password": "147852",
+      "nationalIdentity": "5296741236",
+      "dateOfBirth": "1996-08-18",
+      "companyName": "Havelsan",
+      "id": 6,
+      "role": "ROLE_INSTRUCTOR"
+    }
+  ],
+  "application": [
+    {
+      "id": 1,
+      "state": 1,
+      "userId": "3",
+      "bootcampName": "FrontEnd",
+      "applicantName": "Haluk Gül"
+    },
+    {
+      "id": 2,
+      "state": "1",
+      "userId": "3",
+      "bootcampName": "Backend",
+      "applicantName": "Haluk Gül"
+    },
+    {
+      "id": 5,
+      "state": "1",
+      "userId": "3",
+      "bootcampName": "Java-Spring",
+      "applicantName": "Haluk Gül"
+    }
+  ],
+  "blackList": [
+    {
+      "applicantId": "1",
+      "date": "2021-11-11",
+      "reason": "Hastalık",
+      "applicantName": "Emre Güven",
+      "id": 1
+    },
+    {
+      "applicantId": "2",
+      "date": "2022-01-01",
+      "reason": "Evlilik",
+      "applicantName": "İlknur Yıldırım",
+      "id": 2
+    },
+    {
+      "applicantId": "4",
+      "date": "2021-04-02",
+      "reason": "Farklı Bootcamp Tercihi",
+      "applicantName": "Burak Ergin",
+      "id": 3
+    }
+  ],
+  "bootcamp": [
+    {
+      "instructerId": 1,
+      "name": "FrontEnd",
+      "dateStart": "2022-01-01",
+      "dateEnd": "2022-02-01",
+      "image": "../assets/img/bootcamp/front-enda.png",
+      "state": 1,
+      "instructorName": "Engin Demiroğ",
+      "id": 1
+    },
+    {
+      "instructerId": "1",
+      "name": "Backend",
+      "dateStart": "2022-02-10",
+      "dateEnd": "2022-02-30",
+      "image": "../assets/img/bootcamp/Back-enda.jpg",
+      "state": "1",
+      "instructorName": "Engin Demiroğ",
+      "id": 2
+    },
+    {
+      "instructerId": "5",
+      "name": "React",
+      "dateStart": "2021-05-15",
+      "dateEnd": "2021-06-10",
+      "state": "1",
+      "image": "../assets/img/bootcamp/Reacta.png",
+      "instructorName": "Selim Güngör",
+      "id": 3
+    },
+    {
+      "instructerId": "3",
+      "name": "Coderspace Machine Learning ",
+      "dateStart": "2021-07-17",
+      "dateEnd": "2022-08-17",
+      "image": "../assets/img/bootcamp/coderspacea.jpg",
+      "state": "1",
+      "instructorName": "Seher Karaman",
+      "id": 4
+    },
+    {
+      "instructerId": "4",
+      "name": "Java-Spring",
+      "dateStart": "2023-06-11",
+      "dateEnd": "2023-07-04",
+      "state": "1",
+      "image": "../assets/img/bootcamp/java-springa.png",
+      "instructorName": "Merve Kara",
+      "id": 5
+    },
+    {
+      "instructerId": "2",
+      "name": ".Net-Core",
+      "dateStart": "2022-01-11",
+      "dateEnd": "2022-02-11",
+      "image": "../assets/img/bootcamp/Net-Corea.png",
+      "state": "2",
+      "instructorName": "Arda Karaca",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Emre",
+      "lastName": "Güven",
+      "email": "emre@e.com",
+      "password": "12345",
+      "token": "casvBNhgfdsDDAAa",
+      "role": "ROLE_EMPLOYEE"
+    },
+    {
+      "id": 2,
+      "firstName": "Arda",
+      "lastName": "Karaca",
+      "email": "arda@a.com",
+      "password": "12345",
+      "token": "casvBNhgfdsDDAAa",
+      "role": "ROLE_INSTRUCTOR"
+    },
+    {
+      "id": 3,
+      "firstName": "Haluk",
+      "lastName": "Gül",
+      "email": "haluk@h.com",
+      "password": "12345",
+      "token": "casvBsddlwtttçAAsDDAAa",
+      "role": "ROLE_APPLICANT"
+    }
+  ]
+}

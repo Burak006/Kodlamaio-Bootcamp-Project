@@ -1,0 +1,77 @@
+<a routerLink="/admin/bootcamps" class="btn btn-sm mb-0 me-1 bg-gradient-dark">Geri</a>
+
+<div class="container" style="margin: auto; width:800px;">
+<div class="card-header"><h5 class="title" style="text-align: center;">Bootcamp Güncelle</h5></div>
+  <form [formGroup]="bootcampUpdateForm" *ngIf="bootcampUpdateForm">
+    <div class="row">
+      <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Bootcamp:</label>
+      <input type="text" class="form-control" formControlName="name">
+    </div>
+    <div *ngIf="bootcampUpdateForm.get('name').hasError('required') && bootcampUpdateForm.get('name').touched" class="form-text text-muted uyari">
+      Bootcamp zorunludur!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <label>Eğitmen:</label>
+    <div class="input-group input-group-static mb-4">
+      <select id="instructerId" formControlName="instructerId" class="form-select rounded-0">
+        <option
+          *ngFor="let instructor of instructors" [value]="instructor.id"> {{ instructor.firstName }} {{ instructor.lastName }}
+        </option>
+      </select>
+    </div>
+    <div *ngIf="bootcampUpdateForm.get('instructerId').hasError('required') && bootcampUpdateForm.get('instructerId').touched" class="form-text text-muted uyari">
+      Eğitmen zorunludur!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Başlangıç Tarihi:</label>
+      <input type="date" class="form-control" formControlName="dateStart">
+    </div>
+    <div *ngIf="bootcampUpdateForm.get('dateStart').hasError('required') && bootcampUpdateForm.get('dateStart').touched" class="form-text text-muted uyari">
+      Başlangıç Tarihi zorunludur!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+    <label>Bitiş Tarihi:</label>
+    <input type="date" class="form-control" formControlName="dateEnd">
+    </div>
+    <div *ngIf="bootcampUpdateForm.get('dateEnd').hasError('required') && bootcampUpdateForm.get('dateEnd').touched" class="form-text text-muted uyari">
+      Bitiş Tarihi zorunludur!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Durum:</label>
+      <input type="text" class="form-control" formControlName="state">
+    </div>
+    <div *ngIf="bootcampUpdateForm.get('state').hasError('required') && bootcampUpdateForm.get('state').touched" class="form-text text-muted uyari">
+      Durum zorunludur!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Resim URL:</label>
+      <input type="text" class="form-control" formControlName="image">
+    </div>
+    <div *ngIf="bootcampUpdateForm.get('image').hasError('required') && bootcampUpdateForm.get('image').touched" class="form-text text-muted uyari">
+      URL zorunludur!
+    </div>
+  </div>
+  
+  </div>
+</form>
+<div class="card-footer">
+  <button type="button" class="btn btn-success" (click)="updateToBootcamp()">Kaydet</button>
+</div>
+</div>
+

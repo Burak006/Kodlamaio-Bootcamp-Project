@@ -1,0 +1,98 @@
+<a routerLink="/admin/applicants" class="btn btn-sm mb-0 me-1 bg-gradient-dark">Geri</a>
+
+<div class="container" style="margin:auto; width:800px;">
+  <div class="card-header"><h5 class="title" style="text-align: center;" >Aday Güncelle</h5></div>
+  <form [formGroup]="applicantUpdateForm" *ngIf="applicantUpdateForm">
+    <div class="row">
+      <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Ad:</label>
+      <input type="text" class="form-control" formControlName="firstName">
+    </div>
+    <div *ngIf="applicantUpdateForm.get('firstName').hasError('required') && applicantUpdateForm.get('firstName').touched" class="form-text text-muted uyari">
+      Ad zorunludur!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Soyad:</label>
+      <input type="text" class="form-control" formControlName="lastName">
+    </div>
+    <div *ngIf="applicantUpdateForm.get('lastName').hasError('required') && applicantUpdateForm.get('lastName').touched" class="form-text text-muted uyari">
+      Soyad zorunludur!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Email:</label>
+      <input type="email" class="form-control" formControlName="email">
+    </div>
+    <div *ngIf="applicantUpdateForm.get('email').hasError('required') && applicantUpdateForm.get('email').touched" class="form-text text-muted uyari">
+      Email zorunludur!
+    </div>
+    <div *ngIf="applicantUpdateForm.get('email').hasError('pattern') && applicantUpdateForm.get('email').touched" class="form-text text-muted uyari">
+      Email adresi geçersiz!
+    </div>
+  </div>
+    
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Şifre:</label>
+      <input type="text" class="form-control" formControlName="password">
+    </div>
+    <div *ngIf="applicantUpdateForm.get('password').hasError('required') && applicantUpdateForm.get('password').touched" class="form-text text-muted uyari">
+      Şifre zorunludur!
+    </div>
+    <div *ngIf="applicantUpdateForm.get('password').errors?.['minlength'] && applicantUpdateForm.get('password').touched" class="form-text text-muted uyari">
+      Şifre en az 5 karakterli olmalı!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Tc:</label>
+      <input type="text" class="form-control" formControlName="nationalIdentity">
+    </div>
+    <div *ngIf="applicantUpdateForm.get('nationalIdentity').hasError('required') && applicantUpdateForm.get('nationalIdentity').touched" class="form-text text-muted uyari">
+      TC zorunludur!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Doğum Tarihi:</label>
+      <input type="date" class="form-control" formControlName="dateOfBirth">
+    </div>
+    <div *ngIf="applicantUpdateForm.get('dateOfBirth').hasError('required') && applicantUpdateForm.get('dateOfBirth').touched" class="form-text text-muted uyari">
+      Doğum Tarihi zorunludur!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Hakkında:</label>
+      <input type="text" class="form-control" formControlName="about">
+    </div>
+    <div *ngIf="applicantUpdateForm.get('about').hasError('required') && applicantUpdateForm.get('about').touched" class="form-text text-muted uyari">
+      Hakkında alanı zorunludur!
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="input-group input-group-static mb-4">
+      <label>Durumu:</label>
+      <input type="text" class="form-control" formControlName="state">
+    </div>
+    <div *ngIf="applicantUpdateForm.get('state').hasError('required') && applicantUpdateForm.get('state').touched" class="form-text text-muted uyari">
+      Durumu alanı zorunludur!
+    </div>
+  </div>
+
+  </div>
+</form>
+<div class="card-footer">
+  <button type="button" class="btn btn-success" (click)="updateToApplicant()">Kaydet</button>
+</div>
+</div>
