@@ -7,6 +7,6 @@
 <h1>Kullanılan Teknolojiler</h1>
 <h4>Angular - TypeScript - JavaScript - HTML - Css - Bootstrap 5<h/4>
 <h1>Anasayfa</h1>
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/116731704/208254487-efa47624-2107-41ad-b7c3-54a74ad82164.gif)
+![BootcampProject - Google Chrome 2022-12-17 19-36-04](https://user-images.githubusercontent.com/116731704/208254997-194fbd78-5e95-43c5-9e5a-cc6564476e5d.gif)
 <h1>Admin Panel</h1>
 
