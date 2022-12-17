@@ -6,3 +6,7 @@
 <h4>Senaryo: kodlamaio isimli şirket bootcamp eğitimleri düzenlemektedir. Bunun üzerine bizden yöneticilerin, eğitmenlerin ve bootcamplere başvurabilen adayların olduğu aynı zamanda yöneticilerin tüm verileri güncelleyebilmesi, silebilmesi ve yeni veri ekleyebilmesi istemiştir. Eğitmenlerin kendi bootcamplerini yönetebileceği, adayların ise bootcamplere başvurabileceği özel bir sayfa ve başvurularını yönetebileceği sayfa olacaktır.<h4>
 <h1>Kullanılan Teknolojiler</h1>
 <h4>Angular - TypeScript - JavaScript - HTML - Css - Bootstrap 5<h/4>
+<h1>Anasayfa</h1>
+<h4><h/4>
+<h1>Admin Panel</h1>
+<h4><h/4>
