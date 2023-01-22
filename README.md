@@ -7,8 +7,8 @@
 <h1>Kullanılan Teknolojiler</h1>
 <h4>Angular - TypeScript - JavaScript - HTML - Css - Bootstrap 5<h/4>
 <h1>Anasayfa</h1>
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/116731704/208255334-2d7a8b99-4e5b-4b8f-bf81-09814be2f611.gif)
+<img src="https://user-images.githubusercontent.com/116731704/208255334-2d7a8b99-4e5b-4b8f-bf81-09814be2f611.gif" class="img-fluid">
 
 <h1>Admin Panel</h1>
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/116731704/208255378-985e1d63-cff4-49aa-b728-5e0fe30202be.gif)
+<img src="https://user-images.githubusercontent.com/116731704/208255378-985e1d63-cff4-49aa-b728-5e0fe30202be.gif" class="img-fluid">
 
